@@ -24,7 +24,7 @@ public class Board {
     public void printArea() {
         double area = 0;
         for (Shape shape : this.board) {
-            area = area + shape.getArea();
+            if (shape != null) area = area + shape.getArea();
         }
         System.out.println(area);
     }
