@@ -1,9 +1,9 @@
 package ua.prog.kiev.lesson2;
 
 public class Triangle extends Shape {
-    private Point pointA = new Point(0,0);
-    private Point pointB = new Point(0,0);
-    private Point pointC = new Point(0,0);
+    private Point pointA = new Point(0, 0);
+    private Point pointB = new Point(0, 0);
+    private Point pointC = new Point(0, 0);
 
     public Triangle(Point pointA, Point pointB, Point pointC) {
         this.pointA = pointA;
@@ -21,6 +21,7 @@ public class Triangle extends Shape {
                 this.getSideLength(pointB, pointC) +
                 this.getSideLength(pointC, pointA);
     }
+
     private double getSideLength(Point pointA, Point pointB) {
         return Math.sqrt(Math.pow(pointB.getX() - pointA.getX(), 2) +
                 Math.pow(pointB.getX() - pointA.getX(), 2));

@@ -1,8 +1,8 @@
 package ua.prog.kiev.lesson2;
 
 public class Circle extends Shape {
-    private Point pointA = new Point(0,0);
-    private Point pointB = new Point(0,0);
+    private Point pointA = new Point(0, 0);
+    private Point pointB = new Point(0, 0);
 
     public Circle(Point pointA, Point pointB) {
         this.pointA = pointA;
