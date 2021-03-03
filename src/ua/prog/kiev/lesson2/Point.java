@@ -1,8 +1,8 @@
 package ua.prog.kiev.lesson2;
 
 public class Point {
-    double x;
-    double y;
+   private double x;
+    private double y;
 
     public Point(double xCoordinate, double yCoordinate) {
         this.x = xCoordinate;
